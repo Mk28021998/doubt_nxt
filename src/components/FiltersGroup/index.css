@@ -1,0 +1,130 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-input-cont {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f1f5f9;
+  height: 33px;
+  border-radius: 5px;
+  width: 80%;
+}
+.search-input {
+  background-color: transparent;
+  height: 32px;
+  width: 80%;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+}
+.search-img {
+  height: 35px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.category-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  font-family: roboto;
+}
+
+.category-list-cont {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+.category-items-cont {
+  color: #475569;
+  display: flex;
+}
+.category-name {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.rating-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  font-family: roboto;
+}
+.rating-list-cont {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  width: 75%;
+}
+.rating-ltems-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating-img {
+  height: 22px;
+  cursor: pointer;
+}
+.rating-text {
+  color: #475569;
+  font-size: 15px;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  font-weight: 700;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-error-view-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product-failure-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #475569;
+}
+.product-failure-description {
+  color: #64748b;
+  font-size: 15px;
+  text-align: center;
+}
+
+.no-products-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.no-product-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #475569;
+}
+.no-product-error {
+  color: #64748b;
+  font-size: 15px;
+}
